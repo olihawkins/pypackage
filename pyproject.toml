@@ -20,6 +20,9 @@ dependencies = [
   "numpy"
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["pypackage"]
+
 [tool.hatch.build.targets.sdist]
 exclude = [
   "Pipfile",
